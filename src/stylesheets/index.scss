@@ -1,0 +1,80 @@
+@import '_colors';
+@import '_variables';
+
+body {
+  background-color: #B5FFE1;
+  
+  font-size: 16px;
+  line-height: 1.25;
+  font-family: 'Raleway', sans-serif; 
+  color: #091540;
+  
+  @media (min-width: 43.75em) {
+    line-height: 1.375;
+    /* equivalent to 22px */
+  }
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2em;
+  /* 2x body copy size = 32px */
+  line-height: 1.25;
+  /* 45px / 36px */
+
+  @media (min-width: 43.75em) {
+    font-size: 2.5em;
+    /* 2.5x body copy size = 40px */
+    line-height: 1.125;
+  }
+  
+  @media (min-width: 56.25em) {
+    font-size: 3em;
+    /* 3x body copy size = 48px */
+    line-height: 1.05;
+    /* keep to a multiple of the 20px line height 
+    and something more appropriate for display headings */
+  }
+}
+
+h2 {
+  font-size: 1.625em;
+  /* 1.625x body copy size = 26px */
+  line-height: 1.15384615;
+  /* 30px / 26px */
+
+  @media (min-width: 43.75em) {
+    font-size: 2em;
+    /* 2x body copy size = 32px */
+    line-height: 1.25;
+  }
+  
+  @media (min-width: 56.25em) {
+    font-size: 2.25em;
+    /* 2.25x body copy size = 36px */
+    line-height: 1.25;
+  }
+}
+
+h3 {
+  font-size: 1.375em;
+  /* 1.375x body copy size = 22px */
+  line-height: 1.13636364;
+  /* 25px / 22px */
+
+  @media (min-width: 43.75em) {
+    font-size: 1.5em;
+    /* 1.5x body copy size = 24px */
+    line-height: 1.25;
+  }
+  
+  @media (min-width: 56.25em) {
+    font-size: 1.75em;
+    /* 1.75x body copy size = 28px */
+    line-height: 1.25;
+  }
+}
