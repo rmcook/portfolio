@@ -1,13 +1,29 @@
-@import '_colors';
-@import '_variables';
+@import 'colors';
+@import 'components';
+
+.page-container {
+  max-width: $max-width;
+  // border: 1px solid red;
+  margin: auto;
+  padding: 0 20%;
+}
+
+.shaded {
+  background-color: $gray1;
+}
+
+html {
+  box-sizing: border-box;
+}
 
 body {
-  background-color: #B5FFE1;
+  background-color: $white;
+  margin: 0;
   
   font-size: 16px;
   line-height: 1.25;
-  font-family: 'Raleway', sans-serif; 
-  color: #091540;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: $gray5;
   
   @media (min-width: 43.75em) {
     line-height: 1.375;
@@ -15,12 +31,43 @@ body {
   }
 }
 
-h1, h2, h3 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
+section {
+  height: 90vh;
+}
+
+a {
+  color: $gray5;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  width: 75px;
+  margin-right: 10px;
+  text-align: center;
+
+  .active {
+    font-weight: bold;
+  }
+
+  :hover {
+    font-weight: bold;
+  }
 }
 
 h1 {
+  color: $gray5;
+  margin: 0;
+
   font-size: 2em;
   /* 2x body copy size = 32px */
   line-height: 1.25;
@@ -42,6 +89,9 @@ h1 {
 }
 
 h2 {
+  color: $gray5;
+  margin: 0;
+
   font-size: 1.625em;
   /* 1.625x body copy size = 26px */
   line-height: 1.15384615;
@@ -61,6 +111,9 @@ h2 {
 }
 
 h3 {
+  color: $gray5;
+  margin: 0;
+
   font-size: 1.375em;
   /* 1.375x body copy size = 22px */
   line-height: 1.13636364;
