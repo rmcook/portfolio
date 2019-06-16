@@ -1,0 +1,101 @@
+@import 'colors';
+@import 'variables';
+
+.resume {
+  min-height: 100vh;
+  color: $dark-blue;
+
+  a {
+    color: $dark-blue;
+    font-weight: 400;
+    font-style: normal;
+    background-color: $yellow;
+  }
+
+  h5 {
+    margin: 0;
+  }
+}
+
+.resume__row {
+  @media screen and (min-width: $mobile) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+}
+
+.resume__column {
+  flex-basis: 100%;
+
+  @media screen and (min-width: $mobile) {
+    flex: 1;
+  }
+}
+
+.resume__column--30 {
+  flex: 3;
+}
+
+.resume__column--70 {
+  flex: 7;
+
+  @media screen and (min-width: $mobile) {
+    padding-left: 80px;
+  }
+}
+
+.resume__summary {
+  margin: 0 0 $text-spacing 0;
+
+  address {
+    padding-left: $text-indent;
+  }
+
+  a {
+    background-color: $white;
+  }
+}
+
+.resume__heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: $text-spacing;
+
+  @media (min-width: $mobile) {
+    display: block;
+    margin-bottom: unset;
+  }
+}
+
+.resume__photo {
+  width: 200px;
+}
+
+.resume__skills, .resume__frameworks, .resume__tools {
+  padding-left: $text-indent;
+
+  li {
+    list-style-type: none;
+  }
+}
+
+.resume__download-link {
+  display: block;
+  height: 30px;
+  width: 100%;
+  max-width: 350px;
+  background-color: $yellow;
+  border-radius: 25px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: $text-spacing auto;
+
+  @media (min-width: $mobile) {
+    max-width: 225px;
+    margin: $text-spacing 0;
+  }
+}

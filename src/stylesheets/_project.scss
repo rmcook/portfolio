@@ -1,0 +1,18 @@
+@import 'colors';
+@import 'variables';
+
+.project {
+  margin-bottom: $text-spacing;
+
+  a {
+    color: $dark-blue;
+  }
+}
+
+.project__summary {
+  padding-left: $text-indent;
+}
+
+.project__tools {
+  font-style: italic;
+}

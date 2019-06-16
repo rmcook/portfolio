@@ -1,2 +1,36 @@
 @import 'colors';
-@import 'components';
+@import 'hero';
+@import 'project';
+@import 'resume';
+
+* {
+  box-sizing: border-box;
+
+  :focus {
+    outline: 1px solid $light-blue !important;
+    outline-offset: 5px;
+  }
+}
+
+body {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 100;
+  color: $white;
+  font-family: 'Roboto', sans-serif;
+
+  @media(min-width: $mobile) {
+    font-size: 14px;
+  }
+}
+
+.content-wrapper {
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: 40px 40px;
+
+  @media( min-width: $mobile) {
+    padding: 80px 80px;
+  }
+
+}
