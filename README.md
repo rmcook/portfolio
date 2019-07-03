@@ -15,4 +15,4 @@ Development
 
 Deployment
 
-- To build assets for production run `parcel build ./src/index.html`
+- To build assets for production run `parcel build index.html`
