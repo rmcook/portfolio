@@ -13,8 +13,7 @@ function AsuAcessibility() {
         ensure compliance.
       `}
       contributions={`In addition to refactoring some of the site's form related issues, my biggest 
-        contributions were made doing code review of a third-party development team that assisted with 
-        development.
+        contributions were made doing code review of a third-party that was assisting with development.
       `}
       challenges={`Some of the challenges on this project were working with react in a large application, 
         learning how react was used within a Ruby / Rails environment, and understanding 
