@@ -18,9 +18,9 @@ function UsaFacts() {
       client progress reporting meetings.
       `}
       challenges={`This was my first time using react in a large, live application that had thousands of daily users. The 
-      biggest challenges on the project were ramping up on a large code base, learning es6, having to learn many new framworks
-      and libraries, understanding the patterns that were used throughout the application (like higher-order 
-      components), and best practices for accessing and manipulating large amounts of data.
+      biggest challenges on the project were ramping up on a large code base, learning ES6, learning many new framworks
+      and libraries, understanding the patterns that were used throughout the application, as well as best practices for 
+      accessing and manipulating large amounts of data.
       `}
       tools={'Node.js, JavaScript ES6, React, Redux, Jest, Enzyme, Flow, Lodash'}
       link={'https://www.usafacts.org'}

@@ -68,9 +68,8 @@ function Resume(props) {
           <h2>Projects:</h2>
             <UsaFacts />
             <PeerSurvey />
-            <AsuAccessibility />
-            <AsuAccessibility />
             <ArtefactWebsite />
+            <AsuAccessibility />
             <TarotCardsOfTech />
         </div>
       </div>

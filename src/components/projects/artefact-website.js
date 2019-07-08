@@ -11,15 +11,15 @@ function ArtefactWebsite() {
         The project had a very aggressive timeline and was implemented with Wordpress and Gutenberg 
         which at the time had just been released as WordPress's new editor.
       `}
-      contributions={`I learned a lot on this project about agile development practices and the overall 
+      contributions={`I learned a lot on this project about agile development methodologies and the
         management of a software development project. In addition to developing many of the features 
-        that can be found on the home page and in Artefact's case 
-        studies, I also managed the backlog, assisted with QA testing, coordinated with our designers 
-        on the feasability of their designs, and lead stand-ups and sprint planning meetings.
+        that can be found on the home page and in Artefact's case studies, I also managed the backlog, 
+        assisted with QA testing, coordinated with our designers on the feasability of their designs, 
+        and lead stand-ups and sprint planning meetings.
       `}
-      challenges={`This was a front-end heavy project so ramping up to where I needed to 
-        be was challenging. Also, learning PHP, WordPress development, and how Gutenberg worked (Gutenberg 
-        is similiar to React) all presented their own interesting challenges.
+      challenges={`This was a front-end heavy project so ramping up these skills was initially pretty 
+        challenging. Also, learning PHP, WordPress development, and how Gutenberg worked (Gutenberg 
+        is ultimately very similiar to React) all presented their own interesting challenges.
       `}
       tools={'JavaScript, React, PHP, WordPress'}
       link={'https://www.artefactgroup.com'}
