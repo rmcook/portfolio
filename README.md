@@ -1,7 +1,7 @@
 # rmcook.github.io
 Portfolio Website
 
-Installation
+## Installation
 
 - Install Node.js
 
@@ -9,10 +9,16 @@ Installation
 
 - Install parcel bundler with `npm install -g parcel-bundler`
 
-Development
+## Development
 
 - To run the development server run `npm run start`
 
-Deployment
+## Deployment
 
 - To deploy run `npm run deploy`
+
+## License
+
+Source code is licensed under the MIT license.
+
+Contents of this site are © Copyright 2019 Michael Cook. All rights reserved.
