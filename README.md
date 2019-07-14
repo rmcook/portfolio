@@ -15,4 +15,4 @@ Development
 
 Deployment
 
-- To deploy run `npm deploy`
+- To deploy run `npm run deploy`
