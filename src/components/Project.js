@@ -19,12 +19,6 @@ function Project(props) {
             <p>{contributions}</p>
           </>
         )}
-        { challenges && (
-          <>
-            <h4>Challenges</h4>
-            <p>{challenges}</p>
-          </>
-        )}
       </div>
       <p className="project__tools">{tools}</p>
       { link && (

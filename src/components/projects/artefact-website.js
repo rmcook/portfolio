@@ -17,10 +17,6 @@ function ArtefactWebsite() {
         assisted with QA testing, coordinated with our designers on the feasability of their designs, 
         and lead stand-ups and sprint planning meetings.
       `}
-      challenges={`This was a front-end heavy project so ramping up these skills was initially pretty 
-        challenging. Also, learning PHP, WordPress development, and how Gutenberg worked (Gutenberg 
-        is ultimately very similiar to React) all presented their own interesting challenges.
-      `}
       tools={'JavaScript, React, PHP, WordPress'}
       link={'https://www.artefactgroup.com'}
     />
