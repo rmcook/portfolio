@@ -1,6 +1,7 @@
 import React from 'react'
 import { skills, frameworks, tools } from './appConstants'
 import {
+  GettyImages,
   UsaFacts,
   PeerSurvey,
   AsuAccessibility,
@@ -66,11 +67,10 @@ function Resume(props) {
         </div>
         <div className="resume__column resume__column--70">
           <h2>Projects:</h2>
+            <GettyImages />
             <UsaFacts />
-            <PeerSurvey />
             <ArtefactWebsite />
-            <AsuAccessibility />
-            <TarotCardsOfTech />
+            <PeerSurvey />
         </div>
       </div>
     </main> 

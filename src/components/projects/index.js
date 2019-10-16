@@ -1,7 +1,6 @@
 import UsaFacts from './usafacts'
 import PeerSurvey from './peer-survey'
-import AsuAccessibility from './asu-acessibility'
 import ArtefactWebsite from './artefact-website'
-import TarotCardsOfTech from './tarot-cards-of-tech'
+import GettyImages from './getty-images'
 
-export { UsaFacts, PeerSurvey, AsuAccessibility, ArtefactWebsite, TarotCardsOfTech }
+export { GettyImages, UsaFacts, PeerSurvey, ArtefactWebsite }
